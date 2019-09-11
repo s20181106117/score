@@ -1,0 +1,13 @@
+var score = ""
+var sco = 0
+var max=0;
+while score != "end"{
+    score = readLine()!
+    if score != "end"
+    {sco = Int(score)!}
+    if(max<sco)
+    {
+        max=sco
+    }
+}
+print("您输入数字的最大值是：\(max)")
