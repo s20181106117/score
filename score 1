@@ -1,0 +1,9 @@
+var numStr = ""
+var num = 0
+while numStr != "q"{
+    numStr = readLine()!
+    if(numStr != "q"){
+    num = Int(numStr)!//string 转化为int型
+        print("您输入数字的二倍为：\(num*2)")
+    }
+}
